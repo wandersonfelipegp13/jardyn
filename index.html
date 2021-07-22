@@ -12,11 +12,27 @@
         <meta name="author" content="Wanderson Felipe">
         <link rel="stylesheet" href="css/style.css">
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
-        <link rel="icon" href="img/logo.png">
+        <link rel="icon" href="img/logo-mobile.png">
     </head>
     <body>
         <header class="cabecalho">
             <a href="index.html"><h1 class="logo">Empresa voltada para serviços de jardinagem.</h1></a>
+            <button class="btn-menu" onclick="abre()"><i class="fas fa-bars"></i></button>
         </header>
+        <nav class="menu" id="menu-id">
+            <a class="btn-close" onclick="fecha()" id="menu-close">x</a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Manual</a></li>
+                <li><a href="#">Cadastro</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+
+        <script src="js/menu.js"></script>
+        <script src="https://kit.fontawesome.com/fea36771ab.js" crossorigin="anonymous"></script>
+        
     </body>
 </html>

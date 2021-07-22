@@ -8,6 +8,9 @@
     font-weight: 300;
     box-sizing: border-box; /* Quando usado um padding, a dimensão do elemento não é alterada. */
     font-family: 'Lato', sans-serif;
+
+    --verde: #1fb139;
+    --laranja: #d8802d;
 }
 
 body {
@@ -38,6 +41,57 @@ img {
     width: 56px;
     height: 56px;
     float: left;
-    background: url("../img/logo.png") center center/56px no-repeat;
+    background: url("../img/logo-mobile.png") center center/56px no-repeat;
     font-size: 0; /* Para não aparecer o texto do h1. */
+}
+
+.btn-menu {
+    width: 56px;
+    height: 56px;
+    float: right;
+    text-align: center;
+    color: #fff;
+    border-radius: 56px;
+    cursor: pointer;
+    background: linear-gradient(to right, var(--verde), #111);
+}
+
+/* Menu */
+
+.menu {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.9);
+    top: 0;
+    left: 0;
+}
+
+.btn-close {
+    font-size: 3em;
+    color: #fff;
+    float: right;
+    cursor: pointer;
+    margin-right: 5%;
+}
+
+.menu ul {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.menu li {
+    padding: 1.5%;
+}
+
+.menu li a {
+    font-size: 2em;
+    color: #fff;
+    padding: 1.5% 3%;
+}
+
+.menu li a:hover {
+    border: 1px solid var(--laranja);
 }
