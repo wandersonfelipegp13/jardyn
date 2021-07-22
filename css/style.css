@@ -1,0 +1,43 @@
+/* Resetar as configurações da página */
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%; /* Para usar unidades relativas */
+    border: none;
+    outline: none;
+    font-weight: 300;
+    box-sizing: border-box; /* Quando usado um padding, a dimensão do elemento não é alterada. */
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Cabeçalho */
+
+.cabecalho {
+    width: 100%;
+    float: left;
+    padding: 3% 4%;
+}
+
+.logo {
+    width: 56px;
+    height: 56px;
+    float: left;
+    background: url("../img/logo.png") center center/56px no-repeat;
+    font-size: 0; /* Para não aparecer o texto do h1. */
+}
