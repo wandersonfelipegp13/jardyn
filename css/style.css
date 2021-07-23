@@ -9,12 +9,13 @@
     box-sizing: border-box; /* Quando usado um padding, a dimensão do elemento não é alterada. */
     font-family: 'Lato', sans-serif;
 
+    --fundo: #191722;
     --verde: #1fb139;
-    --laranja: #d8802d;
+    --laranja: #e4e015;
 }
 
 body {
-    background-color: #F5F5F5;
+    background-color: var(--fundo);
 }
 
 a {
@@ -53,7 +54,7 @@ img {
     color: #fff;
     border-radius: 56px;
     cursor: pointer;
-    background: linear-gradient(to right, var(--verde), #111);
+    background: linear-gradient(to right, var(--verde), var(--laranja));
 }
 
 /* Menu */
@@ -94,4 +95,25 @@ img {
 
 .menu li a:hover {
     border: 1px solid var(--laranja);
+}
+
+/* Banner */
+
+.banner {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 3% 4%;
+    background: url(../img/fundo.png) no-repeat fixed top center;
+}
+
+.banner h2 {
+    font-size: 2.5em;
+    color: #fff;
+    font-weight: 700;
+}
+
+.banner h3 {
+    font-size: 1.5em;
+    color: #fff;
 }

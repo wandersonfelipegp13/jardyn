@@ -18,21 +18,25 @@
         <header class="cabecalho">
             <a href="index.html"><h1 class="logo">Empresa voltada para serviços de jardinagem.</h1></a>
             <button class="btn-menu" onclick="abre()"><i class="fas fa-bars"></i></button>
+            <nav class="menu" id="menu-id">
+                <a class="btn-close" onclick="fecha()" id="menu-close">x</a>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Manual</a></li>
+                    <li><a href="#">Cadastro</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
         </header>
-        <nav class="menu" id="menu-id">
-            <a class="btn-close" onclick="fecha()" id="menu-close">x</a>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Serviços</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Manual</a></li>
-                <li><a href="#">Cadastro</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
-        </nav>
-
+        <div class="banner">
+            <div class="title">
+                <h2>O melhor da jardinagem!</h2>
+                <h3>Aqui você encontra profissionais para te ajudar com seu jardim, dicas e muito mais.</h3>
+            </div>
+        </div>
         <script src="js/menu.js"></script>
         <script src="https://kit.fontawesome.com/fea36771ab.js" crossorigin="anonymous"></script>
-        
     </body>
 </html>
