@@ -12,6 +12,7 @@
     --fundo: #191722;
     --verde: #1fb139;
     --laranja: #e4e015;
+    --verde-escuro: #060a07;
 }
 
 body {
@@ -104,16 +105,52 @@ img {
     float: left;
     text-align: center;
     padding: 3% 4%;
-    background: url(../img/fundo.png) no-repeat fixed top center;
+    background: url(../img/fundo.png) fixed;
 }
 
-.banner h2 {
+.title {
+    width: 100%;
+}
+
+.title h2 {
     font-size: 2.5em;
     color: #fff;
     font-weight: 700;
 }
 
-.banner h3 {
+.title h3 {
     font-size: 1.5em;
     color: #fff;
+}
+
+.buttons {
+    width: 100%;
+    margin-top: 2%;
+}
+
+.buttons i {
+    float: right;
+}
+
+.btn-cadastrar {
+    width: 100%;
+    font-size: 1.5em;
+    text-align: left;
+    cursor: pointer;
+    padding: 5%;
+    border-radius: 10px;
+    background-color: #fff;
+    color: var(--verde-escuro);
+}
+
+.btn-contato {
+    width: 100%;
+    font-size: 1.5em;
+    text-align: left;
+    cursor: pointer;
+    padding: 5%;
+    border-radius: 10px;
+    background-color: var(--verde-escuro);
+    color: #fff;    
+    margin-top: 2%;
 }
