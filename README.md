@@ -9,7 +9,8 @@ Faça a estrutura do projeto de um site com seu respectivo menu (responsivo). Ne
 
 ## Imagens
 
-Imagens obtidas em (pixabay)[https://pixabay.com]
-
-
-Imagem de <a href="https://pixabay.com/pt/users/icsilviu-12753087/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5117963">icsilviu</a> por <a href="https://pixabay.com/pt/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5117963">Pixabay</a>
+Imagens obtidas em [pixabay](https://pixabay.com).
+Créditos a:
+* [Counselling](https://pixabay.com/pt/users/counselling-440107)
+* [AxxLC](https://pixabay.com/pt/users/axxlc-1861698)
+* [renateko](https://pixabay.com/pt/users/renateko-15186262)
