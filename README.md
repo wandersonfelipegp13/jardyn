@@ -17,3 +17,6 @@ Créditos a:
 * [Katya_Ershova](https://pixabay.com/pt/users/katya_ershova-21042769)
 * [Skitterphoto](https://pixabay.com/pt/users/skitterphoto-324082)
 * [Pexels](https://pixabay.com/pt/users/pexels-2286921)
+* [jokevanderleij8](https://pixabay.com/pt/users/jokevanderleij8-5591596)
+* [TanteTati](https://pixabay.com/pt/users/tantetati-77004)
+* [Monsterkoi](https://pixabay.com/pt/users/monsterkoi-65294)
