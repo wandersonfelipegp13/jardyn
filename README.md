@@ -14,3 +14,6 @@ Créditos a:
 * [Counselling](https://pixabay.com/pt/users/counselling-440107)
 * [AxxLC](https://pixabay.com/pt/users/axxlc-1861698)
 * [renateko](https://pixabay.com/pt/users/renateko-15186262)
+* [Katya_Ershova](https://pixabay.com/pt/users/katya_ershova-21042769)
+* [Skitterphoto](https://pixabay.com/pt/users/skitterphoto-324082)
+* [Pexels](https://pixabay.com/pt/users/pexels-2286921)
