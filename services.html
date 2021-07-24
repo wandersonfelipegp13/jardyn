@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <!-- Largura da página = largura do dispositivo. O nível inicial é o 1.  -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Jardyn</title>
+        <title>Serviços - Jardyn</title>
         <meta name="description" content="Empresa voltada para serviços de jardinagem.">
         <meta name="keywords" content="Jardinagem, Jardim, Plantas">
         <!-- Os motores de busca vão indexar a index e todos os links que encontrar na index com follow. -->
@@ -15,32 +15,8 @@
         <link rel="icon" href="img/logo-mobile.png">
     </head>
     <body>
-        <header class="cabecalho">
-            <a href="index.html"><h1 class="logo">Empresa voltada para serviços de jardinagem.</h1></a>
-            <button class="btn-menu" onclick="abre()"><i class="fas fa-bars"></i></button>
-            <nav class="menu" id="menu-id">
-                <a class="btn-close" onclick="fecha()" id="menu-close"><i class="fas fa-times"></i></a>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="services.html">Serviços</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Manual</a></li>
-                    <li><a href="#">Cadastro</a></li>
-                    <li><a href="#">Contato</a></li>
-                </ul>
-            </nav>
-        </header>
-        <div class="banner">
-            <div class="title">
-                <h2>O melhor da jardinagem!</h2>
-                <h3>Aqui você encontra profissionais para te ajudar com seu jardim, dicas e muito mais.</h3>
-            </div>
-            <div class="buttons">
-                <button class="btn-cadastrar">Cadastrar <i class="fas fa-arrow-circle-right"></i></button>
-                <button class="btn-contato">Contato <i class="fas fa-question-circle"></i></button>
-            </div>
-        </div>
         <main class="servicos">
+            <h2 style="color: #fff; text-align: center; font-size: 1.5em; margin-bottom: 2%;">Serviços</h2>
             <article class="servico">
                 <a href="#"><img src="img/service01.webp" alt="Cortar a grama"></a>
                 <div class="inner">
@@ -76,29 +52,9 @@
                 </div>
             </article>
         </main>
-        <!-- Newsletter -->
-        <section class="newsletter">
-            <h2>Increva-se agora!</h2>
-            <h3>Receba novidades, dicas e muito mais</h3>
-            <form>
-                <input type="email" name="email" placeholder="Seu email">
-                <button>Cadastrar</button>
-            </form>
-        </section>
-        <!-- Rodapé -->
-        <footer class="rodape">
-            <div class="social-icons">
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-google"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fas fa-envelope"></i></a>
-            </div>
-            <p class="copyright">
-                Copyright © Jardyn 2021. Todos os direitos reservados.
-            </p>
-        </footer>
-        <script src="js/menu.js"></script>
+        <a href="index.html">
+            <i class="fas fa-arrow-left" style="color: #fff; margin: 3% 4%; font-size: 2em;"></i>
+        </a>
         <script src="https://kit.fontawesome.com/fea36771ab.js" crossorigin="anonymous"></script>
     </body>
 </html>
