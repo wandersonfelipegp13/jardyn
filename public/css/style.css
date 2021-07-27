@@ -254,10 +254,10 @@ img {
     color: rgba(255, 255, 255, 0.7);
 }
 
-/* Temps */
+/* Cadastro */
 
-.temp1 {
-    margin-bottom: 2%;
+.cadastro form input {
+    margin-top: 2%;
 }
 
 /* Mobile first */
@@ -303,6 +303,18 @@ img {
         float: right;
         margin-top: 0;
     }
+    .cadastro input {
+        width: 80%;
+        float: none;
+        padding: 2%;
+        margin-right: 0;
+    }
+    .cadastro button {
+        width: 80%;
+        float: none;
+        padding: 2%;
+        margin-top: 2%;
+    }
 }
 
 /* Medium devices - tablets & desktops */
@@ -341,10 +353,21 @@ img {
         width: 20%;
         float: none;
     }
+    .cadastro input {
+        width: 80%;
+        float: none;
+        padding: 2%;
+        margin-right: 0;
+    }
+    .cadastro button {
+        width: 80%;
+        float: none;
+        padding: 2%;
+        margin-top: 2%;
+    }
 }
 
-/* Lage devices - wide screens */
-
+/* Large devices - wide screens */
 
 @media screen and (min-width: 1280px) {
     .btn-menu {
@@ -374,5 +397,17 @@ img {
     .menu li a:hover {
         border: none;
         color: var(--verde);
+    }
+    .cadastro input {
+        width: 80%;
+        float: none;
+        padding: 2%;
+        margin-right: 0;
+    }
+    .cadastro button {
+        width: 80%;
+        float: none;
+        padding: 2%;
+        margin-top: 2%;
     }
 }
