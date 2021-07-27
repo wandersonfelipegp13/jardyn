@@ -1,73 +1,102 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <!-- Largura da página = largura do dispositivo. O nível inicial é o 1.  -->
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Manual - Jardyn</title>
-        <link rel="stylesheet" href="css/style.css">
-        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
-        <link rel="icon" href="img/logo-mobile.png">
-    </head>
-    <body>
-        <main class="servicos">
-            <h2 style="color: #fff; text-align: center; font-size: 1.5em; margin-bottom: 2%;">Manual</h2>
-            <section class="newsletter">
-                <h2>Adubagem</h2>
-                <h3>Calcule a quantidade de adubo para sua grama</h3>
-                <form>
-                    <input type="number" name="gramado" id="grama" placeholder="Metros quadrados">
-                    <button onclick="calc()" id="calcular">Calcular</button>
-                </form>
-                <h3 style="margin-top: 2%;" id="result"></h3>
-            </section>
-        
-            <article class="servico">
-                <a href="#"><img src="img/manual01.jpg" alt="Manual 01"></a>
-                <div class="inner">
-                    <a href="#">Adubo</a>
-                    <h4>Como Adubar?</h4>
-                    <p>Para adubos em pó e granulado, faça pequenos furos no substrato com um lápis,
-                        quase na borda do vaso, coloque o adubo e cubra. Para adubo líquido, 
-                        dissolver o produto na água e usar conforme orientação do fabricante.
-                    </p>
-                </div>
-            </article>
-            <article class="servico">
-                <a href="#"><img src="img/manual02.jpg" alt="Manual 02"></a>
-                <div class="inner">
-                    <a href="#">Rosas</a>
-                    <h4>Quando podar roseiras?</h4>
-                    <p>Qual será a melhor época para podar roseiras?. Uma das melhores alturas
-                         do ano para fazer esta operação é no final do Inverno, quando as 
-                         temperaturas já não são tão baixas e as geadas praticamente não se 
-                         verificam.
-                    </p>
-                </div>
-            </article>
-            <article class="servico">
-                <a href="#"><img src="img/manual03.jpg" alt="Irrigação"></a>
-                <div class="inner">
-                    <a href="#">Grama</a>
-                    <h4>Em que altura devo cortar a grama?</h4>
-                    <p>
-                        Variedades<br>
-                        Batatais: cortar sempre que a grama chegar a 5 cm<br>
-                        São Carlos: cortar sempre que a grama chegar a 3 cm<br>
-                        Esmeralda: cortar sempre que a grama chegar a 3 cm<br>
-                        Santo Agostinho: cortar sempre que a grama chegar a 3 cm<br>
-                        Bermudas: cortar sempre que a grama chegar a 3 cm<br>
-                        Zoysia: cortar sempre que a grama chegar a 2 cm<br>
-                    </p>
-                </div>
-            </article>
-        </main>
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Largura da página = largura do dispositivo. O nível inicial é o 1.  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Manual - Jardyn</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/logo-mobile.png">
+</head>
+
+<body>
+    <header class="cabecalho container">
         <a href="index.html">
-            <i class="fas fa-arrow-left" style="color: #fff; margin: 3% 4%; font-size: 2em;"></i>
+            <h1 class="logo">Empresa voltada para serviços de jardinagem.</h1>
         </a>
-        <script src="https://kit.fontawesome.com/fea36771ab.js" crossorigin="anonymous"></script>
-        <script src="js/adubo.js"></script>
-        <script src="/__/firebase/8.8.0/firebase-app.js"></script>
-        <script src="/__/firebase/init.js"></script>
-    </body>
+        <button class="btn-menu bg-gradient" onclick="abre()"><i class="fas fa-bars"></i></button>
+        <nav class="menu" id="menu-id">
+            <a class="btn-close" onclick="fecha()" id="menu-close"><i class="fas fa-times"></i></a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Serviços</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="manual.html">Manual</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h2 style="color: #fff; text-align: center; font-size: 1.5em; margin-bottom: 2%;">Manual</h2>
+    <section class="newsletter container bg-black">
+        <h2>Adubagem</h2>
+        <h3>Calcule a quantidade de adubo para sua grama</h3>
+        <form>
+            <input class="bg-black radius" type="number" name="gramado" id="grama" placeholder="Metros quadrados">
+            <button class="bg-white radius" onclick="calc()" id="calcular">Calcular</button>
+        </form>
+        <h3 style="margin-top: 2%;" id="result"></h3>
+    </section>
+    <main class="servicos container">
+        <article class="servico bg-white radius">
+            <a href="#"><img src="img/manual01.jpg" alt="Manual 01"></a>
+            <div class="inner">
+                <a href="#">Adubo</a>
+                <h4>Como Adubar?</h4>
+                <p>Para adubos em pó e granulado, faça pequenos furos no substrato com um lápis,
+                    quase na borda do vaso, coloque o adubo e cubra. Para adubo líquido,
+                    dissolver o produto na água e usar conforme orientação do fabricante.
+                </p>
+            </div>
+        </article>
+        <article class="servico bg-white radius">
+            <a href="#"><img src="img/manual02.jpg" alt="Manual 02"></a>
+            <div class="inner">
+                <a href="#">Rosas</a>
+                <h4>Quando podar roseiras?</h4>
+                <p>Qual será a melhor época para podar roseiras?. Uma das melhores alturas
+                    do ano para fazer esta operação é no final do Inverno, quando as
+                    temperaturas já não são tão baixas e as geadas praticamente não se
+                    verificam.
+                </p>
+            </div>
+        </article>
+        <article class="servico bg-white radius">
+            <a href="#"><img src="img/manual03.jpg" alt="Irrigação"></a>
+            <div class="inner">
+                <a href="#">Grama</a>
+                <h4>Em que altura devo cortar a grama?</h4>
+                <p>
+                    Variedades<br>
+                    Batatais: cortar sempre que a grama chegar a 5 cm<br>
+                    São Carlos: cortar sempre que a grama chegar a 3 cm<br>
+                    Esmeralda: cortar sempre que a grama chegar a 3 cm<br>
+                    Santo Agostinho: cortar sempre que a grama chegar a 3 cm<br>
+                    Bermudas: cortar sempre que a grama chegar a 3 cm<br>
+                    Zoysia: cortar sempre que a grama chegar a 2 cm<br>
+                </p>
+            </div>
+        </article>
+    </main>
+     <!-- Rodapé -->
+     <footer class="rodape container bg-gradient">
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-google"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fas fa-envelope"></i></a>
+        </div>
+        <p class="copyright">
+            Copyright © Jardyn 2021. Todos os direitos reservados.
+        </p>
+    </footer>
+    <script src="https://kit.fontawesome.com/fea36771ab.js" crossorigin="anonymous"></script>
+    <script src="js/adubo.js"></script>
+    <script src="/__/firebase/8.8.0/firebase-app.js"></script>
+    <script src="/__/firebase/init.js"></script>
+</body>
+
 </html>
