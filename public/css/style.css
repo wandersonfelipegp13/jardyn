@@ -259,3 +259,120 @@ img {
 .temp1 {
     margin-bottom: 2%;
 }
+
+/* Mobile first */
+
+/* Smal devices - smartphones */
+
+@media screen and (min-width: 480px) {
+    .logo {
+        width: 214px;
+        background: url("../img/logo.png") center center/214px no-repeat;
+    }
+    .btn {
+        font-size: 2em;
+    }
+}
+
+/* Smal devices - tablets */
+
+@media screen and (min-width: 768px) {
+    .servico {
+        width: 49%;
+        float: left;
+        margin-right: 2%;
+    }
+    .servico:nth-child(2){
+        margin-right: 0;
+    }
+    .newsletter h2 {
+        font-size: 2em;
+    }
+    .newsletter h3 {
+        font-size: 1.5em;
+    }
+    .newsletter input {
+        width: 70%;
+        padding: 2%;
+        float: left;
+        margin-right: 1%;
+    }
+    .newsletter button {
+        width: 29%;
+        padding: 2%;
+        float: right;
+        margin-top: 0;
+    }
+}
+
+/* Medium devices - tablets & desktops */
+
+@media screen and (min-width: 960px) {
+    .title {
+        width: 70%;
+        float: left;
+        text-align: left;
+    }
+    .title h2 {
+        font-size: 3em;
+    }
+    .title h3 {
+        font-size: 2em;
+    }
+    .buttons {
+        width: 30%;
+        float: right;
+        margin-top: 0;
+    }
+    .servico {
+        width: 32%;
+    }
+    .servico:nth-child(2){
+        margin-right: 2%;
+    }
+    .servico:nth-child(3){
+        margin-right: 0;
+    }
+    .newsletter input {
+        width: 60%;
+        float: none;
+    }
+    .newsletter button {
+        width: 20%;
+        float: none;
+    }
+}
+
+/* Lage devices - wide screens */
+
+
+@media screen and (min-width: 1280px) {
+    .btn-menu {
+        display: none;
+    }
+    .btn-close {
+        display: none;
+    }
+    .menu {
+        width: auto;
+        height: 56px;
+        line-height: 56px;
+        float: right;
+        background-color: var(--fundo);
+        display: block !important;
+        position: static;
+    }
+    .menu li {
+        padding: 0;
+        float: left;
+    }
+    .menu li a {
+        color: var(--laranja);
+        font-size: 1em;
+        padding: 15px;
+    }
+    .menu li a:hover {
+        border: none;
+        color: var(--verde);
+    }
+}
