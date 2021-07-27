@@ -123,7 +123,8 @@ img {
 /* Banner */
 
 .banner {
-    background: url(../img/fundo.png) fixed;
+    background: url(../img/bg.png) fixed;
+    background-size: cover;
 }
 
 .title {
