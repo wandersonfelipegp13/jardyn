@@ -261,6 +261,18 @@ img {
     margin-top: 2%;
 }
 
+/* página de contatos */
+
+#bg-contato {
+    background: url(../img/bg_contato.jpg) fixed;
+    background-size: cover;
+}
+
+#bg-services {
+    background: url(../img/bg-services.jpg) fixed;
+    background-size: cover;
+}
+
 /* Mobile first */
 
 /* Smal devices - smartphones */
@@ -382,7 +394,7 @@ img {
         height: 56px;
         line-height: 56px;
         float: right;
-        background-color: var(--fundo);
+        background-color: rgba(0, 0, 0, 0);
         display: block !important;
         position: static;
     }
@@ -391,13 +403,13 @@ img {
         float: left;
     }
     .menu li a {
-        color: var(--laranja);
+        color: var(--verde);
         font-size: 1em;
         padding: 15px;
     }
     .menu li a:hover {
         border: none;
-        color: var(--verde);
+        color: var(--laranja);
     }
     .cadastro input {
         width: 80%;
@@ -410,5 +422,12 @@ img {
         float: none;
         padding: 2%;
         margin-top: 2%;
+    }
+    #menu-services li a {
+        font-weight: bold;
+        color: var(--verde-escuro);
+    }
+    #menu-services li a:hover {
+        color: var(--verde);
     }
 }

@@ -1,8 +1,11 @@
 /* Exibe menu no modo mobile */
 function abre() {
-    document.getElementById("menu-id").style.display = "inherit";
+    var menu = document.getElementsByClassName("menu");
+    menu[0].style.display = "inherit";
 }
+
 /* Esconde menu no modo mobile */
 function fecha() {
-    document.getElementById("menu-id").style.display = "none";
+    var menu = document.getElementsByClassName("menu");
+    menu[0].style.display = "none";
 }
