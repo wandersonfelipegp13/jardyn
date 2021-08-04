@@ -273,6 +273,11 @@ img {
     background-size: cover;
 }
 
+#bg-blog {
+    background: url(../img/bg-blog.jpeg) fixed;
+    background-size: cover;
+}
+
 /* Mobile first */
 
 /* Smal devices - smartphones */
@@ -429,5 +434,13 @@ img {
     }
     #menu-services li a:hover {
         color: var(--verde);
+    }
+    #menu-blog li a {
+        font-weight: bold;
+        color: #fff;
+    }
+    #menu-blog li a:hover {
+        font-weight: bold;
+        color: var(--laranja);
     }
 }
