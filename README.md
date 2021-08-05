@@ -15,7 +15,7 @@ Faça a estrutura do projeto de um site com seu respectivo menu (responsivo). Ne
 
 - [x] Utilização de imagens de fundo diferente em três páginas com o mesmo CSS;
 
-- [ ] Utilizar Grid layout – CSS;
+- [x] Utilizar Grid layout – CSS;
 
 - [ ] Fazer uso do flexbox – CSS;
 
