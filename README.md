@@ -13,7 +13,7 @@ Faça a estrutura do projeto de um site com seu respectivo menu (responsivo). Ne
 
 - [x] A estrutura responsiva. (deve possuir no mínimo uma configuração para três valores referentes ao tamanho da tela)
 
-- [ ] Utilização de imagens de fundo diferente em três páginas com o mesmo CSS;
+- [x] Utilização de imagens de fundo diferente em três páginas com o mesmo CSS;
 
 - [ ] Utilizar Grid layout – CSS;
 
@@ -29,7 +29,9 @@ Faça a estrutura do projeto de um site com seu respectivo menu (responsivo). Ne
 
 ## Imagens
 
-Imagens obtidas em [pixabay](https://pixabay.com).
+Imagens obtidas:
+
+- [pixabay](https://pixabay.com).
 Créditos a:
 * [Counselling](https://pixabay.com/pt/users/counselling-440107)
 * [AxxLC](https://pixabay.com/pt/users/axxlc-1861698)
@@ -40,3 +42,9 @@ Créditos a:
 * [jokevanderleij8](https://pixabay.com/pt/users/jokevanderleij8-5591596)
 * [TanteTati](https://pixabay.com/pt/users/tantetati-77004)
 * [Monsterkoi](https://pixabay.com/pt/users/monsterkoi-65294)
+
+- [unsplash](https://unsplash.com)
+Créditos a:
+* [Hunt Han](https://unsplash.com/@hunth)
+* [Sergey Shmidt](https://unsplash.com/@monstercritic)
+* [Annie Spratt](https://unsplash.com/@anniespratt)
