@@ -21,7 +21,7 @@ Faça a estrutura do projeto de um site com seu respectivo menu (responsivo). Ne
 
 - [x] Usar as propriedades de animação CSS (transition e animation);
 
-- [ ] Uma página para cadastro com no mínimo 10 campos sendo estilizada com CSS (tentar usar todos os tipos possíveis de campos do HTML 5).
+- [x] Uma página para cadastro com no mínimo 10 campos sendo estilizada com CSS (tentar usar todos os tipos possíveis de campos do HTML 5).
 
 - [x] Uso de um recurso que utiliza JavaScript (permitindo que o usuário interaja com alguma funcionalidade – Pegando o nome do usuário; trabalhando com troca de imagens; e de acordo com as escolhas do usuário apresente resultados diferentes);
 
