@@ -220,7 +220,7 @@ img {
     margin-top: 2%;
 }
 
-.newsletter input {
+.newsletter input, select {
     width: 100%;
     color: #fff;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -261,6 +261,33 @@ img {
 .cadastro form input {
     margin-top: 2%;
 }
+
+.cadastro form label {
+    margin-top: 2%;
+    color: #fff;
+}
+.cadastro datalist option {
+    color: #fff;
+}
+
+.marcadores {
+    width: 100%;
+    margin-top: 2%;
+    display: block;
+}
+
+.marcador {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    text-align: left
+}
+
+.marcador input {
+    width: min-content;
+    margin-right: 2%;
+}
+
 
 /* página de contatos */
 
@@ -424,6 +451,16 @@ img {
         padding: 30px;
         font-size: 42px;
     }
+    .cadastro form {
+        display: block;
+    }
+    .cadastro form input {
+        width: 100%;
+    }
+    .marcadores .marcador input {
+        width: min-content;
+        float: left;
+    }
 }
 
 /* Medium devices - tablets & desktops */
@@ -477,6 +514,9 @@ img {
     .redes-sociais {
         grid-template-columns: 1fr 1fr;
         grid-gap: 4%;
+    }
+    .marcadores .marcador input {
+        margin-right: 2%;
     }
 }
 
@@ -554,5 +594,12 @@ img {
     }
     .pesquisa input {
         margin-left: 35%;
+    }
+    #rg, #nasc, #foto {
+        margin-bottom: 2%;
+    }
+
+    .cadastro form select {
+        padding: 2%;
     }
 }

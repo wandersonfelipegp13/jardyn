@@ -1,47 +1,107 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <!-- Largura da página = largura do dispositivo. O nível inicial é o 1.  -->
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Cadastro - Jardyn</title>
-        <link rel="stylesheet" href="css/style.css">
-        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
-        <link rel="icon" href="img/logo-mobile.png">
-    </head>
-    <body>
-        <header class="cabecalho container">
-            <a href="index.html"><h1 class="logo">Empresa voltada para serviços de jardinagem.</h1></a>
-            <button class="btn-menu bg-gradient" onclick="abre()"><i class="fas fa-bars"></i></button>
-            <nav class="menu" id="menu-id">
-                <a class="btn-close" onclick="fecha()" id="menu-close"><i class="fas fa-times"></i></a>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="services.html">Serviços</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="manual.html">Manual</a></li>
-                    <li><a href="cadastro.html">Cadastro</a></li>
-                    <li><a href="contato.html">Contato</a></li>
-                </ul>
-            </nav>
-        </header>
-        <section class="newsletter container bg-black cadastro">
-            <h2>Increva-se agora!</h2>
-            <h3>Receba novidades, dicas e muito mais</h3>
-            <form>
-                <input class="bg-black radius" type="text" name="nome" placeholder="Seu nome">
-                <input class="bg-black radius" type="email" name="email" placeholder="Seu email">
-                <input class="bg-black radius" type="password" name="senha" placeholder="Sua senha">
-                <button class="bg-white radius">Cadastrar</button>
-            </form>
-        </section>
-        <script src="js/menu.js"></script>
-        <script src="https://kit.fontawesome.com/fea36771ab.js" crossorigin="anonymous"></script>
-        <!-- The core Firebase JS SDK is always required and must be listed first -->
-        <script src="/__/firebase/8.8.0/firebase-app.js"></script>
-        <!-- TODO: Add SDKs for Firebase products that you want to use
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Largura da página = largura do dispositivo. O nível inicial é o 1.  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cadastro - Jardyn</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/logo-mobile.png">
+</head>
+
+<body>
+    <header class="cabecalho container">
+        <a href="index.html">
+            <h1 class="logo">Empresa voltada para serviços de jardinagem.</h1>
+        </a>
+        <button class="btn-menu bg-gradient" onclick="abre()"><i class="fas fa-bars"></i></button>
+        <nav class="menu" id="menu-id">
+            <a class="btn-close" onclick="fecha()" id="menu-close"><i class="fas fa-times"></i></a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Serviços</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="manual.html">Manual</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="newsletter container bg-black cadastro">
+        <h2>Increva-se agora!</h2>
+        <h3>Receba novidades, dicas e muito mais</h3>
+        <form>
+            <input class="bg-black radius" type="text" name="nome" placeholder="Seu nome">
+            <input class="bg-black radius" type="email" name="email" placeholder="Seu email">
+            <input class="bg-black radius" type="password" name="senha" placeholder="Sua senha">
+            <input class="bg-black radius" type="number" name="rg" placeholder="Seu RG" id="rg">
+            <label for="nasc">Data de nascimento</label>
+            <input class="bg-black radius" type="date" name="nasc" id="nasc">
+            <label for="foto">Foto</label>
+            <input class="bg-black radius" type="file" name="foto" id="foto">
+            <label for="like">De 0 a 10 qual sua afinidade com jardins?</label>
+            <input class="bg-black radius" type="range" name="like" id="like" min="0" max="10" list="marks">
+            <datalist id="marks">
+                <option value="0" label="0">
+                <option value="1">
+                <option value="2">
+                <option value="3">
+                <option value="4">
+                <option value="5" label="5">
+                <option value="6">
+                <option value="7">
+                <option value="8">
+                <option value="9">
+                <option value="10" label="10">
+            </datalist>
+            <select class="bg-black radius" name="cidade">
+                <option value="urutai" selected>Urutaí</option>
+                <option value="pires">Pires do Rio</option>
+                <option value="ipameri">Ipameri</option>
+            </select>
+            <div class="marcadores">
+                <div class="marcador">
+                    <input type="radio" id="mas" name="sexo">
+                    <label for="mas">Masculino</label>
+                </div>
+                <div class="marcador">
+                    <input type="radio" id="fem" name="sexo">
+                    <label for="fem">Feminino</label>
+                </div>
+            </div>
+            <h3>Gostos</h3>
+            <di class="marcadores">
+                <div class="marcador">
+                    <input type="checkbox" value="rosas" id="rosas">
+                    <label for="rosas">Rosas</label>
+                </div>
+                <div class="marcador">
+                    <input type="checkbox" value="margaridas" id="margaridas">
+                    <label for="margaridas">Margaridas</label>
+                </div>
+                <div class="marcador">
+                    <input type="checkbox" value="violetas" id="violetas">
+                    <label for="violetas">Violetas</label>
+                </div>
+                <div class="marcador">
+                    <input type="checkbox" value="cactos" id="cactos">
+                    <label for="cactos">Cactos</label>
+                </div>
+            </di>
+            <br>
+            <button class="bg-white radius">Cadastrar</button>
+        </form>
+    </section>
+    <script src="js/menu.js"></script>
+    <script src="https://kit.fontawesome.com/fea36771ab.js" crossorigin="anonymous"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/8.8.0/firebase-app.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
         https://firebase.google.com/docs/web/setup#available-libraries -->
-        <!-- Initialize Firebase -->
-        <script src="/__/firebase/init.js"></script>
-    </body>
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
+</body>
+
 </html>
