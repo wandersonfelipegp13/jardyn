@@ -549,4 +549,10 @@ img {
         width: 50%;
         margin: 2% 0;
     }
+    .pesquisa-item input {
+        width: 10%;
+    }
+    .pesquisa input {
+        margin-left: 35%;
+    }
 }
