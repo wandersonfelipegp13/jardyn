@@ -329,6 +329,39 @@ img {
     }
 }
 
+/* manual */
+
+.pesquisa form {
+    margin: 5% 0;
+}
+
+.pesquisa form img {
+    width: 100%;
+    margin: 5% 0;
+}
+
+.pesquisa-item {
+    display: flex;
+    align-items: center;
+}
+
+.pesquisa-item input {
+    width: auto;
+}
+
+.pesquisa-item label {
+    margin-left: 4%;
+    color: #fff;
+}
+
+.pesquisa-item {
+    width: 100%;
+}
+
+#txt-resultado {
+    display: none;
+}
+
 /* Mobile first */
 
 /* Smal devices - smartphones */
@@ -511,5 +544,9 @@ img {
     }
     .redes-sociais {
         grid-template-columns: 1fr 1fr 1fr;
+    }
+    .pesquisa form img {
+        width: 50%;
+        margin: 2% 0;
     }
 }

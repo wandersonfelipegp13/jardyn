@@ -30,12 +30,43 @@
         </nav>
     </header>
     <h2 style="color: #fff; text-align: center; font-size: 1.5em; margin-bottom: 2%;">Manual</h2>
-    <section class="newsletter container bg-black">
-        <h2>Adubagem</h2>
-        <h3>Calcule a quantidade de adubo para sua grama</h3>
+    <section class="newsletter container bg-black pesquisa">
+        <h2>O que você está procurando?</h2>
+        <h3>Responda as perguntas e iremos ver o que é ideal para você.</h3>
         <form>
-            <input class="bg-black radius" type="number" name="gramado" id="grama" placeholder="Metros quadrados">
+            <h3>Quanto espaço você tem?</h3><br>
+            <div class="pesquisa-item">
+                <input type="radio" name="espaco" id="menos1m" value="menos1m">
+                <label for="menos1m">menos de 1m</label>
+            </div>
+            <div class="pesquisa-item">
+                <input type="radio" name="espaco" id="cerca3m" value="cerca3m">
+                <label for="cerca3m">cerca de 3m</label>
+            </div>
+            <div class="pesquisa-item">
+                <input type="radio" name="espaco" id="mais3m" value="mais3m">
+                <label for="mais3m">mais de 3m</label>
+            </div>
+            <br>
+            <h3>Gosta de muitas cores?</h3><br>
+            <div class="pesquisa-item">
+                <input type="radio" name="cor" id="nao" value="nao">
+                <label for="nao">não gosto</label>
+            </div>
+            <div class="pesquisa-item">
+                <input type="radio" name="cor" id="nincomoda" value="nincomoda">
+                <label for="nincomoda">não incomoda</label>
+            </div>
+            <div class="pesquisa-item">
+                <input type="radio" name="cor" id="sim" value="sim">
+                <label for="sim">gosto</label>
+            </div>
+            <br>
             <button class="bg-white radius" onclick="calc()" id="calcular">Calcular</button>
+            <br><br>
+            <h2 id="txt-resultado">Resultado...</h2>
+            <br>
+            <img id="resultado" src="img/logo-mobile.png" alt="">
         </form>
         <h3 style="margin-top: 2%;" id="result"></h3>
     </section>
@@ -95,7 +126,7 @@
     </footer>
     <script src="js/menu.js"></script>
     <script src="https://kit.fontawesome.com/fea36771ab.js" crossorigin="anonymous"></script>
-    <script src="js/adubo.js"></script>
+    <script src="js/pesquisa.js"></script>
     <script src="/__/firebase/8.8.0/firebase-app.js"></script>
     <script src="/__/firebase/init.js"></script>
 </body>

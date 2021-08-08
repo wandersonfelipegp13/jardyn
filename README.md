@@ -23,9 +23,9 @@ Faça a estrutura do projeto de um site com seu respectivo menu (responsivo). Ne
 
 - [ ] Uma página para cadastro com no mínimo 10 campos sendo estilizada com CSS (tentar usar todos os tipos possíveis de campos do HTML 5).
 
-- [ ] Uso de um recurso que utiliza JavaScript (permitindo que o usuário interaja com alguma funcionalidade – Pegando o nome do usuário; trabalhando com troca de imagens; e de acordo com as escolhas do usuário apresente resultados diferentes);
+- [x] Uso de um recurso que utiliza JavaScript (permitindo que o usuário interaja com alguma funcionalidade – Pegando o nome do usuário; trabalhando com troca de imagens; e de acordo com as escolhas do usuário apresente resultados diferentes);
 
-- [ ] Criar alguma animação com imagens em JavaScript semelhante ao exemplo do link: https://codepen.io/rachelnabors/pen/rxpmJL/?editors=0010
+- [x] Criar alguma animação com imagens em JavaScript semelhante ao exemplo do link: https://codepen.io/rachelnabors/pen/rxpmJL/?editors=0010
 
 ## Imagens
 
@@ -48,3 +48,4 @@ Créditos a:
 * [Hunt Han](https://unsplash.com/@hunth)
 * [Sergey Shmidt](https://unsplash.com/@monstercritic)
 * [Annie Spratt](https://unsplash.com/@anniespratt)
+* [Cherry Laithang](https://unsplash.com/@laicho)
