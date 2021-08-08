@@ -12,6 +12,7 @@
     --fundo: #191722;
     --verde: #1fb139;
     --laranja: #e4e015;
+    --blue: #2350ce;
     --verde-escuro: #060a07;
 }
 
@@ -281,6 +282,12 @@ img {
     height: 100%;
     font-size: 32px;
     align-content: center;
+    transition: all .5s ease-out;
+    background-color: var(--verde);
+}
+
+.rede-social:hover {
+    background: var(--blue);
 }
 
 .rede-social a {
@@ -305,6 +312,22 @@ img {
     background-size: cover;
 }
 
+#icon-animation {
+    animation: mySpiner 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes mySpiner {
+    from {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(-45deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
 
 /* Mobile first */
 

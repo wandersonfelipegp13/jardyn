@@ -19,7 +19,7 @@ Faça a estrutura do projeto de um site com seu respectivo menu (responsivo). Ne
 
 - [ ] Fazer uso do flexbox – CSS;
 
-- [ ] Usar as propriedades de animação CSS (transition e animation);
+- [x] Usar as propriedades de animação CSS (transition e animation);
 
 - [ ] Uma página para cadastro com no mínimo 10 campos sendo estilizada com CSS (tentar usar todos os tipos possíveis de campos do HTML 5).
 
