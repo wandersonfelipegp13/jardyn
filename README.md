@@ -17,7 +17,7 @@ Faça a estrutura do projeto de um site com seu respectivo menu (responsivo). Ne
 
 - [x] Utilizar Grid layout – CSS;
 
-- [ ] Fazer uso do flexbox – CSS;
+- [x] Fazer uso do flexbox – CSS;
 
 - [x] Usar as propriedades de animação CSS (transition e animation);
 
